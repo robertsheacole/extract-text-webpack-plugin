@@ -163,7 +163,7 @@ module.exports = {
 
 ### `url()` Resolving
 
-If you are finding that urls are not resolving properly when you run webpack. You can expand your loader functionality with options. The `url: false` property allows your paths resolved without any changes.
+If you are finding that urls are not resolving properly when you run webpack. You can expand your loader functionality with options. The `url: false` property allows your paths to be resolved without any changes.
 
 ```js
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
